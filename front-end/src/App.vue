@@ -13,7 +13,9 @@
       <router-link to="/dashboard"><button>My Dogs</button></router-link>
     </nav>
     <router-view />
+    <footer><a href="https://github.com/areid99/WEB-FINAL">https://github.com/areid99/WEB-FINAL</a></footer>
   </div>
+
 </template>
 
 <style>
@@ -54,6 +56,9 @@ h1 {
 }
 nav {
   padding: 20px;
+  text-align: center;
+}
+footer {
   text-align: center;
 }
 </style>
